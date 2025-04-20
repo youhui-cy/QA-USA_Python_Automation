@@ -1,5 +1,7 @@
 import data
 import helpers
+from selenium import webdriver
+webdriver.Chrome()
 
 class TestUrbanRoutes:
     @classmethod
